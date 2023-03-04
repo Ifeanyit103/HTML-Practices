@@ -10,8 +10,8 @@
         <div style="width: 250px; margin: 0 auto 25px;">
         <h1>Reset password</h1>
         <p>Please enter your credentials first.</p>
-        <p>Won't be shared publicly</p>
-        <p>won't be spammed</p>
+        <p>Won't be shared publicly.</p>
+        <p>won't be spammed.</p>
         </div>
         <form
         style="
