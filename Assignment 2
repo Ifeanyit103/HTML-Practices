@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equip="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Explore / Twitter</title>
+        <style>
+            #btn1{margin: 5px; margin-left: 20px; width: 350px; height: 40px; border-radius: 40px;
+                background-color: white;
+                border-color: rgb(215, 228, 241);
+                border-width: 1px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                font-size: 15px;
+            } 
+            #btn1:hover{
+                background-color: rgb(219, 218, 218);
+            }
+            #btn{
+                margin: 5px; margin-left: 20px; width: 350px; height: 40px; border-radius: 40px;
+                background-color: white;
+                border-color: rgb(215, 228, 241);
+                border-width: 1px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                font-size: 15px;
+                font-weight: bolder;
+            }
+            #btn:hover{
+                background-color: rgb(219, 218, 218);
+            }
+        .abc{
+                margin-left: 20px;
+                width: 350px;
+            }
+            #abc{
+                color: lightskyblue;
+                cursor: pointer;
+            }
+            #abc:hover{
+                text-decoration: underline;
+            }
+            .bdc{
+                margin: 20px; height: 0px; cursor: pointer;
+            }
+            .bdc:hover{
+                text-decoration: underline;
+            }
+            #xyz{
+                margin: 3px; cursor: pointer;
+            }
+            #xyz:hover{
+                text-decoration: underline;
+            }
+            
+</style>
+    </head>
+    <body>
+        <form style="width: 400px; border: 1px solid rgb(233, 227, 227); border-radius: 20px; height: 300px;">
+            <div>
+            <h1 class="abc">New to Twitter?</h1>
+            <p class="abc">Sign up now to get your own personalized timeline!</p>
+        </div>
+        <div>
+            <button id="btn1">
+            <img src="/google logo.png" width="20px" height="20px" alt="googl image" style="margin: 3px;" /><span>Sign up with Google</span>
+        </button>
+    </div>        
+    <div>
+        <button id="btn">
+    <img src="/apple logo.jpg" width="20px" height="20px" alt="apple image" style="margin: 3px;" /><span>Sign up with Apple</span></span>
+</button>
+    <button id="btn">Create account</button>
+</div>
+    <div class="abc">
+    <a>By signing up, you agree to the</a> <a id="abc">Terms of Service</a><a> and </a><a id="abc"> Privacy Policy</a><a>, including</a><a id="abc"> Cookie Use.</a>
+    </div>
+</form>            
+    </div>
+    <div>
+            <div><p class="bdc">Terms of Service</a>
+            <a id="xyz">Privacy Policy</a>
+            <a id="xyz">Cookie Policy</a>
+            </div>
+        <div>
+            <a class="bdc">Accessibility</a>
+            <a id="xyz">Ads info</a>
+            <a id="xyz">More &mldr;</a>        
+    </div>
+    <div><span class="abc">&#169; 2023 Twitter, Inc.</span></div>
+</form> 
+    
+       
+    </body>
