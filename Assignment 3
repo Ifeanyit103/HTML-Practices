@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equip="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Flex box</title>
+        <style>
+            .container{
+                border:none;
+                height: 50px;
+                align-items: center;
+                display: flex;
+            }
+            .a{
+                width: 30px;
+                height: 20px;
+                border-radius: 5px;
+                background-color: black;
+                text-align: center;
+                color: white;
+                margin: 5px;
+                position: relative;
+                cursor: pointer;
+                border: 1px solid lightgrey;
+            }
+            .b{
+                width: 40px;
+                height: 20px;
+                margin: 5px;
+                border-radius: 5px;
+                text-align: center;
+                position: relative;
+                cursor: pointer;
+                background-color: rgb(245, 243, 243);
+                border: 1px solid lightgrey;
+            }
+            .bx{
+                display: none;
+                position: absolute;
+                background-color: lightgrey;
+                width: 40px;
+                height: 20px;
+                margin: 5px;
+                border-radius: 5px;
+                text-align: center;
+                border: 1px solid lightgrey;
+            }
+            .b:hover .bx{
+                display:block;
+            }
+            .c{
+                width: 55px;
+                margin: 5px;
+                height: 20px;
+                cursor: pointer;
+                background-color: rgb(245, 243, 243);;
+                border-radius: 5px;
+                position: relative;
+                text-align: center;
+                border: 1px solid lightgrey;
+            }
+            .cx{
+                display: none;
+                position: absolute;
+                background-color: lightgrey;
+                width: 55px;
+                margin: 5px;
+                height: 20px;
+                border-radius: 5px;
+                text-align: center;
+                border: 1px solid lightgrey;
+            }
+            .c:hover .cx{
+                display:block;
+            }
+            .d{
+                width: 50px;
+                height: 20px;
+                margin: 5px;
+                border-radius: 5px;
+                text-align: center;
+                position: relative;
+                border: 1px solid lightgrey;
+                background-color:rgb(245, 243, 243);;
+                cursor: pointer;
+            }
+            .dx{
+                width: 50px;
+                position: absolute;
+                height: 20px;
+                margin: 5px;
+                border-radius: 5px;
+                text-align: center;
+                border: 1px solid lightgrey;
+                background-color: lightgrey;
+                display: none;
+            }
+            .d:hover .dx{
+                display: block;
+            }
+            .e{
+                width: 45px;
+                height: 20px;
+                margin: 5px;
+                position: relative;
+                border-radius: 5px;
+                text-align: center;
+                border: 1px solid lightgrey;
+                background-color:rgb(245, 243, 243);
+                cursor: pointer;
+            }
+            .ex{
+                width: 45px;
+                position: absolute;
+                height: 20px;
+                margin: 5px;
+                border-radius: 5px;
+                text-align: center;
+                border: 1px solid lightgrey;
+                background-color: lightgrey;
+                display: none;
+            }
+            .e:hover .ex{
+                display:block;
+            }
+            .f:hover .fx{
+                display:block;
+            }
+            .f{
+                width: 50px;
+                height: 20px;
+                margin: 5px;
+                position: relative;
+                border-radius: 5px;
+                text-align: center;
+                border: 1px solid lightgrey;
+                background-color: rgb(245, 243, 243);
+                cursor: pointer;
+            }
+            .fx{
+                display: none;
+                position: absolute;
+                background-color: lightgrey;
+                width: 50px;
+                height: 20px;
+                margin: 5px;
+                border-radius: 5px;
+                text-align: center;
+                border: 1px solid lightgrey;
+            }
+            .g{
+                background-color: rgb(245, 243, 243);
+                cursor: pointer;
+                width: 50px;
+                height: 20px;
+                margin: 5px;
+                position: relative;
+                border-radius: 5px;
+                text-align: center;
+                border: 1px solid lightgrey;
+            }
+            .gx{
+                background-color: lightgrey;
+                display: none;
+                position: absolute;
+                width: 50px;
+                height: 20px;
+                margin: 5px;
+                border-radius: 5px;
+                text-align: center;
+                border: 1px solid lightgrey;
+            }
+            .g:hover .gx{
+                display:block;
+            }
+            .h{
+                background-color: rgb(245, 243, 243);
+                cursor: pointer;
+                width: 40px;
+                height: 20px;
+                margin: 5px;
+                position: relative;
+                border-radius: 5px;
+                text-align: center;
+                border: 1px solid lightgrey;
+            }
+            .i{
+                background-color: rgb(245, 243, 243);
+                cursor: pointer;
+                width: 60px;
+                height: 20px;
+                margin: 5px;
+                position: relative;
+                border-radius: 5px;
+                text-align: center;
+                border: 1px solid lightgrey;
+            }
+            .ix{
+                display: none;
+                position: absolute;
+                background-color: lightgrey;
+                width: 60px;
+                height: 20px;
+                margin: 5px;
+                border-radius: 5px;
+                text-align: center;
+                border: 1px solid lightgrey;
+            }
+            .i:hover .ix{
+                display:block;
+            }
+            .j{
+                width: 75px;
+                height: 20px;
+                margin: 5px;
+                position: relative;
+                border-radius: 5px;
+                text-align: center;
+                border: 1px solid lightgrey;
+                background-color: rgb(245, 243, 243);
+                cursor: pointer;
+            }
+            .jx{
+                background-color: lightgrey;
+                display: none;
+                position: absolute;
+                width: 75px;
+                height: 20px;
+                margin: 5px;
+                border-radius: 5px;
+                text-align: center;
+                border: 1px solid lightgrey;
+            }
+            .j:hover .jx{
+                display:block;
+            }
+            .k{
+                background-color: rgb(245, 243, 243);
+                cursor: pointer;
+                width: 95px;
+                height: 20px;
+                margin: 5px;
+                border-radius: 5px;
+                text-align: center;
+                position: relative;
+                border: 1px solid lightgrey;
+            }
+            .kx{
+                background-color: lightgrey;
+                display: none;
+                position: absolute;
+                width: 95px;
+                height: 20px;
+                margin: 5px;
+                border-radius: 5px;
+                text-align: center;
+                border: 1px solid lightgrey;
+            }
+            .k:hover .kx{
+                display:block;
+            }
+            .l{
+                background-color: rgb(245, 243, 243);
+                cursor: pointer;
+                position: relative;
+                width: 60px;
+                height: 20px;
+                margin: 5px;
+                border-radius: 5px;
+                text-align: center;
+                border: 1px solid lightgrey;
+            }
+            .lx{background-color: lightgrey;
+                display: none;
+                position: absolute;
+                width: 60px;
+                height: 20px;
+                margin: 5px;
+                border-radius: 5px;
+                text-align: center;
+                border: 1px solid lightgrey;
+            }
+            .l:hover .lx{
+                display:block;
+            }
+            .m{
+                background-color: rgb(245, 243, 243);
+                cursor: pointer;
+                width: 130px;
+                height: 20px;
+                margin: 5px;
+                border-radius: 5px;
+                text-align: center;
+                position: relative;
+                border: 1px solid lightgrey;
+            }
+            .mx{
+                background-color: lightgrey;
+                display: none;
+                position: absolute;
+                width: 130px;
+                height: 20px;
+                margin: 5px;
+                border-radius: 5px;
+                text-align: center;
+                border: 1px solid lightgrey;
+            }
+            .m:hover .mx{
+                display:block;
+            }
+            .n{
+                width: 40px;
+                height: 20px;
+                border-radius: 5px;
+                text-align: center;
+                cursor: pointer;
+            }
+            .nx{
+                position: absolute;
+                background-color:gray;
+                width: 40px;
+                height: 20px;
+                margin: 5px;
+                border-radius: 5px;
+                text-align: center;
+                display: none;
+                color: white;
+                border: 1px solid lightgrey;
+
+            }
+            .n:hover .nx{
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container"><div class="a">All</div>
+        <div class="b"><span>Java</span><div class="bx"><a>Java</a></div></div>
+        <div class="c"><span>Python</span><div class="cx"><a>Python</a></div></div>
+        <div class="d"><span>Mixes</span><div class="dx"><a>Mixes</a></div>
+    </div>
+        <div class="e"><span>Sales</span><div class="ex"><a>Sales</a></div>
+    </div>
+        <div class="f"><span>News</span><div class="fx"><a>News</a></div>
+    </div>
+        <div class="g"><span>Music</span><div class="gx"><a>Music</a></div>
+    </div>
+        <div class="h">Live</div>
+        <div class="i"><span>Gaming</span><div class="ix"><a>Gaming</a></div>
+    </div>
+        <div class="j"><span>Blessings</span><div class="jx"><a>Blessings</a></div>
+    </div>
+        <div class="k"><span>Conversation</span><div class="kx"><a>Conversation</a></div>
+    </div>
+        <div class="l"><span>Comedy</span><div class="lx"><a>Comedy</a></div>
+    </div>
+        <div class="m"><span>Recently uploaded</span><div class="mx"><a>Recently uploaded</a></div>
+    </div>
+    <div class="n"><span>&#9002;</span><div class="nx"><a>Next</a></div>
+</div>
+</div>
+            
+    </body>
+</html>
