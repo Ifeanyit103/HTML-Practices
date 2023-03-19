@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equip="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Twitter Search Page</title>
+        <style>
+            .formbox{
+                width: 500px;
+                height: 635px;
+                padding: 10px 0;
+                margin: auto;
+                flex-wrap: wrap;
+                border: 1px solid rgb(233, 227, 227);
+            }
+            .searchbox{
+                width: 400px;
+                height: 40px;
+                border-radius: 20px;
+                background-color:#f8f8ff;
+                text-align: left;
+                margin-left: 20px;
+                position: relative;
+                cursor:text;
+                border: 1px solid lightgrey;
+            }
+
+            #sx{
+                margin-left: 10px;
+                font-size: 20px;
+                color: grey;
+            }
+            .img{
+                margin-left: 440px;
+                cursor: pointer;
+            }
+            .img:hover{
+                background-color: #f8f8ff;
+            }
+            .Trends{
+                font-weight: bolder;
+            }
+            .btn1{
+                height: 80px;
+                width: 500px;
+                background-color: white;
+                border: none;
+                cursor: pointer;
+            }
+            .btn1:hover{
+                background-color:#f8f8ff;
+            }
+            #a{
+                padding-right: 385px;
+            }
+            #b{
+                padding-right: 440px;
+                font-weight: bolder;
+            }
+            .c{
+                padding-left: 450px;
+                font-weight: bolder;
+            }
+            #d{
+
+                padding-right: 405px;        
+            }
+            #e{
+                padding-right: 370px;
+            }
+            #f{
+                padding-right: 445px;
+                font-weight: bolder;
+            }
+            #g{
+                padding-right: 430px;
+                font-weight: bolder;
+            }
+            #h{
+                padding-right: 443px;
+                font-weight: bolder;
+            }
+            #i{
+                padding-right: 415px;
+                font-weight: bolder;
+            }
+            #j{
+                padding-right: 390px;
+                font-weight: bolder;
+            }
+            #l{
+                padding-right: 402px;
+            }
+            #k{
+                padding-right: 384px;
+            }
+        </style>
+    </head>
+    <body>
+        <form class="formbox">
+            <div>
+            <button class="searchbox">
+                <img src="/search icon.png" alt="search icon" width="40px height 20px">
+                <a id="sx">Search Twitter</a><div class="img"><img src="/setting icon.png" alt=" setting icon" width="20px"></div>
+            </button>
+        </div>
+         <div class="Trends">
+            <h2><span>&#8592;</span>Trends for you</h2></span>
+            
+         </div>
+         <div class="abc">
+            <button class="btn1">
+                <span id="a">Music . Trending</span>
+                <a id="b">Davido</a><div class="c">&hellip;</div>
+                <a id="d">14.2k Tweets</a> 
+            </button>
+            <button class="btn1"><span id="e">Trending in Nigeria</span>
+               <a id="f">Ellu P</a><div class="c">&hellip;</div>
+               <a id="d">71.5k Tweets</a>
+            </button>
+            <button class="btn1"><span id="e">Trending in Nigeria</span>
+                <a id="g">Na POS</a><div class="c">&hellip;</div>
+                <a id="l">8,517 Tweets</a>
+            </button>
+            <button class="btn1"><span id="e">Trending in Nigeria</span>
+                <a id="h">USSD</a><div class="c">&hellip;</div>
+                <a id="l">3,005 Tweets</a>
+            </button>
+            <button class="btn1"><span id="k">Travel . Trending</span>
+                <a id="f">IELTS</a><div class="c">&hellip;</div>
+                <a id="l">4,008 Tweets</a>
+            </button>
+            <button class="btn1"><span id="e">Trending in Nigeria</span>
+                <a id="i">US and UK</a><div class="c">&hellip;</div>
+                <a id="d">22.8k Tweets</a>
+            </button>
+            <button class="btn1"><span id="e">Trending in Nigeria</span>
+                <a id="j">Joshua Selman</a><div class="c">&hellip;</div>
+                <a id="d">12.6k Tweets</a>
+                
+            </button>
+            
+         </div>
+        </form>
+            
+    </body>
