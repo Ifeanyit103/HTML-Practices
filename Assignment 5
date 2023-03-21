@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equip="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>OPay Transaction Receipt</title>
+        <style>
+            .container{
+                height: 50px;
+                width: 600px;
+                margin-left: 80px;
+                align-items: center;
+                display: flex;
+            }
+            .rec{
+                font-weight: bolder;
+            }
+                .a{
+                width: 160px;
+                height: 20px;
+                background-color: white;
+                text-align: center;
+                margin: 150px;
+                position: relative;
+                cursor: pointer;
+                border: none;
+            }
+            .b{
+                text-align: center;
+                color: #3cb371;
+                font-weight: bolder;
+                font-family: Arial;
+            }
+            .c{
+                text-align: center;
+                margin:5px;
+                font-size: small;
+            }
+            .d{
+                text-align: center;
+                margin:5px;
+                font-size: small;
+                color: #848b79;
+            }
+            .e{
+                width: 395px;
+                padding: 5px;
+                margin: auto;
+            }
+            .f{
+                margin-left: 110px;
+                color: grey;
+                padding: 15px;
+            }
+            .g{
+                margin-left: 190px;
+                color: black;
+            }
+            .h{
+                margin-left: 175px;
+                font-size:smaller;
+                color: black;
+            }
+            .i{
+                margin-left: 350px;
+                color: grey;
+                font-size: small;
+                
+            }
+            .j{
+                margin-left: 145px;
+                color: black;
+                font-size: smaller;   
+            }
+            .k{
+                margin-left: 430px;
+                font-size: small;
+                color: grey;
+            }
+            .l{
+                margin-left: 145px;
+                color: black;
+                font-size: small;
+            }
+            .m{
+                margin-left: 145px;
+                color: black;
+                font-size: small;
+            }
+            .n{
+                text-align: center;
+                padding: 50px;
+                color: grey;
+            }
+            .o{
+                text-align: center;
+                color: #3cb371;
+            }
+            .q{
+                border-top: 2px dotted;
+                color: grey;
+                width: 450px;
+                margin-left: 70px;
+            }
+            .p{
+                margin-left: 50px;
+                font-size: smaller;
+            }
+            .r{
+                margin-right: 82px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+                    <img src="/Opay logo.jpg" alt="OPay logo" width="150px" height="150px"/>
+                    <div class="a"><span class="rec">Transaction Receipt</span></div>
+            </div>
+            <div class="b"><span>₦3200.00</span></div>
+            <div class="c"><span >SUCCESS</span></div>
+            <div class="d"><span>Mar 15,2023,19:56</span></div>
+            <div class="e"><hr></hr></div>
+            <div class="f"><span>Transaction Type</span><a class="g">Transfer to bank</a></div>
+            <div class="f"><span>Recipient Details</span><a class="h">NWOGU FRANCESS</a></div>
+            <div class="i"><span>Ecobank Nigeria Plc | 1351003949</span></div>
+            <div class="f"><span>Sender Details</span><a class="j">OBINNA SHALOM OKOYAR</a></div>
+            <div class="k"><span>OPay | 803****065</span></div>
+            <div class="f"><span>Transaction Reference</span> <a class="l">230315027639766399</a></div>
+            <div class="f"><span>SessionID</span><a class="m">100004230315184726103229989323</a></div>
+            <div class="n">Support<div class="o"><span>ng-support@opay-inc.com</span><hr class="q"></div>
+            <div class="p"><a>Enjoy a better life with OPay. Gpaymeet free transfers, free withdrawals, free bill <span class="r">payments instant loans and up to 15% interest on savings. OPay is </span> <div class="r"><span>licensed by the Central Bank of Nigeria and insured by the NDIC</span></div></div></div>
+    </body>
