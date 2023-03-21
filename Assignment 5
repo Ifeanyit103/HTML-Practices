@@ -54,37 +54,37 @@
                 padding: 15px;
             }
             .g{
-                margin-left: 190px;
+                margin-left: 185px;
                 color: black;
             }
             .h{
-                margin-left: 175px;
+                margin-left: 168px;
                 font-size:smaller;
                 color: black;
             }
             .i{
-                margin-left: 350px;
+                margin-left: 345px;
                 color: grey;
                 font-size: small;
                 
             }
             .j{
-                margin-left: 145px;
+                margin-left: 135px;
                 color: black;
                 font-size: smaller;   
             }
             .k{
-                margin-left: 430px;
+                margin-left: 420px;
                 font-size: small;
                 color: grey;
             }
             .l{
-                margin-left: 145px;
+                margin-left: 135px;
                 color: black;
                 font-size: small;
             }
             .m{
-                margin-left: 145px;
+                margin-left: 140px;
                 color: black;
                 font-size: small;
             }
