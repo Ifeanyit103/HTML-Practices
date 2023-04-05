@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equip="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ZOOM</title>
+        <style>
+            .opt{
+                width: 1500px;
+                height: 350px;
+                border: 1px solid black;;
+                display: flex;
+                margin: 10px;
+                border: none;
+                background-color: #F8F8FF;
+            }
+            .top{
+                width: 1500px;
+                text-align: center;
+            }
+            .box{
+                width: 500px;
+                height: 200px;
+                padding: 50px 0;
+                margin: 10px;
+                border-radius: 20px;
+                background-color: white;
+
+            }
+            .icon{
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                margin-left: 10px;
+            }
+            .icon1{
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+            .icon3{
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                margin-right:10px;
+            }
+            .a{
+                background-color:#1E90FF;
+                color: white;
+                font-size: large;
+                margin-left:120px;
+                width: 120px;
+                height: 35px;
+                border-radius: 20px;
+                border: none;
+            }
+            .b{
+                background-color: white;
+                width:190px;
+                height: 35px;
+                color: #1E90FF;
+                font-size: large;
+                margin-left: 10px;
+                border: none;
+            }
+            .c{
+                background-color: white;
+                width:130px;
+                height: 35px;
+                color:#000080;
+                font-size: 15px;
+                border: none;
+            }
+            .d{
+                background-color:#1E90FF;
+                color: white;
+                font-size: large;
+                margin-left:190px;
+                width: 120px;
+                height: 35px;
+                border-radius: 20px;
+                border: none;
+            }
+            .k{
+                color: #1E90FF;
+                font-size: larger;
+                font-weight: bold;
+            }
+            .f{
+               padding-bottom: 20px;
+               margin-left: 5px
+            }
+            .g{
+                padding-bottom: 60px;
+                margin-left: 20px;
+            }
+            .h{
+                padding-bottom:30px;
+                margin-left: 20px;
+            }
+            .i{
+                margin-left: 20px;
+            }
+        </style>
+    </head>
+    <body>
+         <div class="top">
+            <h2>Optional Zoom Plan Add-ons</h2>
+            <span>*You must have at least one Licensed user to purchase these Add-on plans.</span>
+         </div>
+         <div class="opt">
+            <form class="box">
+            <div class="f"><img class="icon" src="/folder.png" alt="">Zoom Whiteboard<p>Starting at $24.90 per year</p></div>
+            <div class="g"><span class="k">&#x2713;</span> Unlimited concurrently editable boards</div>
+            <button class="a"><span>Buy Now</span></button>
+            <button class="b">Discover Whiteboard</button>
+         </form>
+         <form class="box">
+            <div class="f"><img class="icon1" src="/calender icon.jpg" alt="">Large Meetings <p> Starting at $600 per year</p></div>
+            <div class="i"><span class="k">&#x2713;</span> Increase participants capacity for your meetings plan</div>
+            <div class="h"><span class="k">&#x2713;</span> Include up to 500 or 1,000 interactive participants in a meeting</div>
+            <button class="c">More features<span> &or;</span></button>
+            <button class="d"><span>Buy Now</span></button>
+
+         </form>
+         <form class="box">
+            <div class="f"><img class="icon3" src="/cloud icon.jpg" alt=""> Cloud Storage<p> Starting at $120 per year</p></div>
+            <div class="h"><span class="k">&#x2713;</span> Store, stream and download your video recordings from the Zoom Cloud</div>
+            <button class="c">More features<span> &or;</span></button>
+            <button class="d">Buy Now</button>
+         </form>
+         
+
+         </div>
+    </body>
