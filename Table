@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equip="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Table</title>
+        <style>
+            table{
+                margin: auto;
+                width: 900px;
+                height: 300px;
+                box-shadow: 0px 0px 20px  #B0C4DE;
+                border-collapse: collapse;
+                
+
+            }
+            .row{
+                height: 40px;
+                color: darkgray;
+                border: 1px solid lightgrey;
+            }
+            .row1{
+                border: 1px solid lightgrey;
+            }
+            .row2{
+                border: 1px solid lightgrey;
+            }
+            .row3{
+                border: 1px solid lightgrey;
+            }
+            .row4{
+                border: 1px solid lightgrey;
+            }
+            .row5{
+                border: 1px solid lightgrey;
+            }
+            .row6{
+                border: 1px solid lightgrey;
+            }
+            .a{
+                border: none;
+                border-radius: 5px;
+                text-align: center;
+                color: grey;
+                background-color: #DAA520;
+            }
+            .b{
+                border: none;
+                border-radius: 5px ;
+                text-align: center;
+                color: grey;
+                background-color: lightgreen;
+            }
+            .k{
+                height: 25px;
+                width: 25px;
+                border-radius: 50%;
+                margin-left: 5px;
+                
+            }
+            .j{
+                height: 25px;
+                width: 25px;
+                border-radius: 50%;
+                margin-left: 5px;
+                position: relative;
+            }
+            .f{
+                font-weight: bolder;
+                position:absolute;
+                border: none;
+                background-color: white;
+                
+            }
+            .E{
+                font-size:x-small;
+                position: absolute;
+                color:grey;
+            }
+            .g{
+                font-size:x-small;
+                position: absolute;
+                color:grey;
+                width: 100px;
+                
+            }
+
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead class="row">
+            <th>Merchant Account Name</th>
+            <th>Amount</th>
+            <th>Transaction Type</th>
+            <th>Transaction Channel</th>
+            <th>Transaction Reference</th>
+            <th>Status</th>
+        </thead>
+        <tbody>
+            <tr class="row1">
+                <td><img class="j" src="/green arrow.png" alt=""><button class="f">Kehinde Arigbolo <div class="E">15 May 2020 8:00 am</div></button></td>
+                <td>+N435,748,846.00</td>
+                <td>Money Transfer</td>
+                <td>Paga checkout</td>
+                <td>0035464047</td>
+                <td><button class="a">Pending</button></td>
+            </tr>
+            <tr class="row2">
+                <td><img class="k" src="/red arrow.png" alt=""><button class="f">Annette Black<div class="g">15 May 2020 9:00 am</div></button></td>
+                <td>+N435,748,846.00</td>
+                <td>Deposit to Bank</td>
+                <td>Paga checkout</td>
+                <td>0035464047</td>
+                <td><button class="b">Successful</button></td>
+            </tr>
+            <tr class="row3">
+                <td><img class="j" src="/green arrow.png" alt=""><button class="f">Kathryn Murphy<div class="E">15 May 2020 8:00 am</div></button></td>
+                <td>+N435,748,846.00</td>
+                <td>Billpay</td>
+                <td>Paga checkout</td>
+                <td>0035464047</td>
+                <td><button class="b">Successful</button></td>
+            </tr>
+            <tr class="row4">
+                <td><img class="j" src="/green arrow.png" alt=""><button class="f"> Jenny Wilson <div class="g">15 May 2020 8:00 am</div></button></td>
+                <td>+N435,748,846.00</td>
+                <td>Airtime</td>
+                <td>Paga checkout</td>
+                <td>0035464047</td>
+                <td><button class="b">Successful</button></td>
+            </tr>
+            <tr class="row5">
+                <td><img class="j" src="/green arrow.png" alt=""><button class="f"> Darrel Steward <div class="E">15 May 2020 8:00 am</div></button></td>
+                <td>+N435,748,846.00</td>
+                <td>Money Transfer</td>
+                <td>Paga checkout</td>
+                <td>0035464047</td>
+                <td><button class="a">Pending</button></td>
+            </tr>
+            <tr class="row6">
+                <td><img class="k" src="/red arrow.png" alt=""><button class="f"> Devon Lane<div class="g">15 May 2020 8:00 am</div></button></td>
+                <td>+N435,748,846.00</td>
+                <td>Money Transfer</td>
+                <td>Paga checkout</td>
+                <td>0035464047</td>
+                <td><button class="b">Successful</button></td>
+            </tr>
+        </tbody>
+    </table>
+    </body>
+</html>
